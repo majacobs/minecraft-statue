@@ -1,4 +1,4 @@
-use crate::drawing::{Brush, Cuboid};
+use crate::drawing::Cuboid;
 use crate::nbt::Structure;
 use crate::transform::Transform;
 use image::io::Reader as ImageReader;
@@ -14,8 +14,8 @@ pub trait Model {
 
         let transform = Transform::with_scale(scaling);
         for part in self.parts().into_iter() {
-            for face in part.faces().into_iter() {
-                face.draw(structure, image, &transform, &part.position, Brush::YPos);
+            for (face, brush) in part.faces().into_iter() {
+                face.draw(structure, image, &transform, &part.position, brush);
             }
         }
 

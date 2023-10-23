@@ -1,6 +1,6 @@
 use crate::drawing::{Cuboid, Dimensions, TextureOffsets};
 use crate::model::Model;
-use crate::transform::{Rotation, Transform};
+use crate::transform::{Plane, Rotation, Transform};
 
 const TEXTURE_DIR: &str = "minecraft/1.20.1/assets/minecraft/textures/";
 
@@ -20,6 +20,10 @@ pub struct Goat {
     front_right_leg: Cuboid,
     rear_left_leg: Cuboid,
     rear_right_leg: Cuboid,
+    left_horn: Cuboid,
+    right_horn: Cuboid,
+    left_ear: Cuboid,
+    right_ear: Cuboid,
 }
 
 impl Goat {
@@ -51,7 +55,11 @@ impl Goat {
                 position: Transform::new(),
             },
             coat: Cuboid {
-                dimensions: Dimensions { x: 11, y: 14, z: 11 },
+                dimensions: Dimensions {
+                    x: 11,
+                    y: 14,
+                    z: 11,
+                },
                 offsets: TextureOffsets {
                     top: (11, 28),
                     bottom: (22, 28),
@@ -110,6 +118,54 @@ impl Goat {
                 },
                 position: Transform::new().translate(1, -11, -11),
             },
+            left_horn: Cuboid {
+                dimensions: Dimensions { x: 2, y: 7, z: 2 },
+                offsets: TextureOffsets {
+                    top: (14, 55),
+                    bottom: (16, 55),
+                    right: (12, 57),
+                    left: (16, 57),
+                    front: (14, 57),
+                    back: (18, 57),
+                },
+                position: Transform::new().translate(5, 3, 7),
+            },
+            right_horn: Cuboid {
+                dimensions: Dimensions { x: 2, y: 7, z: 2 },
+                offsets: TextureOffsets {
+                    top: (14, 55),
+                    bottom: (16, 55),
+                    right: (12, 57),
+                    left: (16, 57),
+                    front: (14, 57),
+                    back: (18, 57),
+                },
+                position: Transform::new().translate(2, 3, 7),
+            },
+            left_ear: Cuboid {
+                dimensions: Dimensions { x: 3, y: 2, z: 1 },
+                offsets: TextureOffsets {
+                    top: (3, 61),
+                    bottom: (6, 61),
+                    right: (2, 62),
+                    left: (6, 62),
+                    front: (3, 62),
+                    back: (7, 62),
+                },
+                position: Transform::new().mirror(Plane::YZ).translate(11, -1, 6),
+            },
+            right_ear: Cuboid {
+                dimensions: Dimensions { x: 3, y: 2, z: 1 },
+                offsets: TextureOffsets {
+                    top: (3, 61),
+                    bottom: (6, 61),
+                    right: (2, 62),
+                    left: (6, 62),
+                    front: (3, 62),
+                    back: (7, 62),
+                },
+                position: Transform::new().translate(-1, -1, 6),
+            },
         }
     }
 }
@@ -121,6 +177,10 @@ impl Model for Goat {
 
     fn parts(&self) -> Vec<&Cuboid> {
         vec![
+            &self.left_horn,
+            &self.right_horn,
+            &self.left_ear,
+            &self.right_ear,
             &self.head,
             &self.torso,
             &self.coat,

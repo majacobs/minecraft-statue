@@ -10,70 +10,88 @@ pub struct Cuboid {
 }
 
 impl Cuboid {
-    pub fn faces(&self) -> Vec<Face> {
+    pub fn faces(&self) -> Vec<(Face, Brush)> {
         vec![
             // Top
-            Face {
-                x: self.offsets.top.0,
-                y: self.offsets.top.1,
-                width: self.dimensions.x,
-                height: self.dimensions.z,
-                transform: Transform::new().translate(1, 0, 1 - (self.dimensions.z as i32)),
-            },
+            (
+                Face {
+                    x: self.offsets.top.0,
+                    y: self.offsets.top.1,
+                    width: self.dimensions.x,
+                    height: self.dimensions.z,
+                    transform: Transform::new().translate(1, 0, 1 - (self.dimensions.z as i32)),
+                },
+                Brush::YPos,
+            ),
             // Bottom
-            Face {
-                x: self.offsets.bottom.0,
-                y: self.offsets.bottom.1,
-                width: self.dimensions.x,
-                height: self.dimensions.z,
-                transform: Transform::new().translate(
-                    1,
-                    1 - (self.dimensions.y as i32),
-                    1 - (self.dimensions.z as i32),
-                ),
-            },
+            (
+                Face {
+                    x: self.offsets.bottom.0,
+                    y: self.offsets.bottom.1,
+                    width: self.dimensions.x,
+                    height: self.dimensions.z,
+                    transform: Transform::new().translate(
+                        1,
+                        1 - (self.dimensions.y as i32),
+                        1 - (self.dimensions.z as i32),
+                    ),
+                },
+                Brush::YNeg,
+            ),
             // Back
-            Face {
-                x: self.offsets.back.0,
-                y: self.offsets.back.1,
-                width: self.dimensions.x,
-                height: self.dimensions.y,
-                transform: Transform::new()
-                    .rotate(Rotation::XPos)
-                    .rotate(Rotation::YPos)
-                    .rotate(Rotation::YPos)
-                    .translate(self.dimensions.x as i32, 0, 1 - (self.dimensions.z as i32)),
-            },
+            (
+                Face {
+                    x: self.offsets.back.0,
+                    y: self.offsets.back.1,
+                    width: self.dimensions.x,
+                    height: self.dimensions.y,
+                    transform: Transform::new()
+                        .rotate(Rotation::XPos)
+                        .rotate(Rotation::YPos)
+                        .rotate(Rotation::YPos)
+                        .translate(self.dimensions.x as i32, 0, 1 - (self.dimensions.z as i32)),
+                },
+                Brush::YPos,
+            ),
             // Right
-            Face {
-                x: self.offsets.right.0,
-                y: self.offsets.right.1,
-                width: self.dimensions.z,
-                height: self.dimensions.y,
-                transform: Transform::new()
-                    .rotate(Rotation::XPos)
-                    .rotate(Rotation::YNeg)
-                    .translate(1, 0, 1 - (self.dimensions.z as i32)),
-            },
+            (
+                Face {
+                    x: self.offsets.right.0,
+                    y: self.offsets.right.1,
+                    width: self.dimensions.z,
+                    height: self.dimensions.y,
+                    transform: Transform::new()
+                        .rotate(Rotation::XPos)
+                        .rotate(Rotation::YNeg)
+                        .translate(1, 0, 1 - (self.dimensions.z as i32)),
+                },
+                Brush::YPos,
+            ),
             // Left
-            Face {
-                x: self.offsets.left.0,
-                y: self.offsets.left.1,
-                width: self.dimensions.z,
-                height: self.dimensions.y,
-                transform: Transform::new()
-                    .rotate(Rotation::XPos)
-                    .rotate(Rotation::YPos)
-                    .translate(self.dimensions.x as i32, 0, 0),
-            },
+            (
+                Face {
+                    x: self.offsets.left.0,
+                    y: self.offsets.left.1,
+                    width: self.dimensions.z,
+                    height: self.dimensions.y,
+                    transform: Transform::new()
+                        .rotate(Rotation::XPos)
+                        .rotate(Rotation::YPos)
+                        .translate(self.dimensions.x as i32, 0, 0),
+                },
+                Brush::YPos,
+            ),
             // Front
-            Face {
-                x: self.offsets.front.0,
-                y: self.offsets.front.1,
-                width: self.dimensions.x,
-                height: self.dimensions.y,
-                transform: Transform::new().rotate(Rotation::XPos).translate(1, 0, 0),
-            },
+            (
+                Face {
+                    x: self.offsets.front.0,
+                    y: self.offsets.front.1,
+                    width: self.dimensions.x,
+                    height: self.dimensions.y,
+                    transform: Transform::new().rotate(Rotation::XPos).translate(1, 0, 0),
+                },
+                Brush::YPos,
+            ),
         ]
     }
 }
