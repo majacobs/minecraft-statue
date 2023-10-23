@@ -1,18 +1,18 @@
 use crate::items::get_item;
+use crate::mob::get_mob;
+use crate::model::Model;
 use crate::nbt::{DataVersion, Structure};
 use crate::skin::Skin;
 use std::fs::File;
-use crate::mob::get_mob;
-use crate::model::Model;
 
 mod drawing;
 mod items;
 mod materials;
+mod mob;
+mod model;
 mod nbt;
 mod skin;
 mod transform;
-mod mob;
-mod model;
 
 fn main() -> std::io::Result<()> {
     const SCALING: i32 = 1;
@@ -60,7 +60,8 @@ fn main() -> std::io::Result<()> {
         }
         None => {
             println!("Missing option");
-            return Ok(());}
+            return Ok(());
+        }
     }
 
     let mut f = File::create("output.nbt")?;

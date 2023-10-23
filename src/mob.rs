@@ -1,6 +1,6 @@
 use crate::drawing::{Cuboid, Dimensions, TextureOffsets};
-use crate::transform::{Plane, Rotation, Transform};
 use crate::model::Model;
+use crate::transform::{Rotation, Transform};
 
 const TEXTURE_DIR: &str = "minecraft/1.20.1/assets/minecraft/textures/";
 
@@ -36,7 +36,7 @@ impl Goat {
                     front: (44, 56),
                     back: (59, 56),
                 },
-                position: Transform::new().rotate(Rotation::XPos).translate(2,-10,7),
+                position: Transform::new().rotate(Rotation::XPos).translate(2, -10, 7),
             },
             torso: Cuboid {
                 dimensions: Dimensions { x: 9, y: 11, z: 16 },
@@ -60,55 +60,55 @@ impl Goat {
                     front: (11, 39),
                     back: (33, 39),
                 },
-                position: Transform::new().translate(-1,1,1),
+                position: Transform::new().translate(-1, 1, 1),
             },
             front_left_leg: Cuboid {
                 dimensions: Dimensions { x: 3, y: 10, z: 3 },
                 offsets: TextureOffsets {
-                    top: (38,2),
-                    bottom: (41,2),
-                    right: (35,5),
-                    left: (41,5),
-                    front: (38,5),
-                    back: (44,5),
+                    top: (38, 2),
+                    bottom: (41, 2),
+                    right: (35, 5),
+                    left: (41, 5),
+                    front: (38, 5),
+                    back: (44, 5),
                 },
-                position: Transform::new().translate(5,-7,-1),
+                position: Transform::new().translate(5, -7, -1),
             },
             front_right_leg: Cuboid {
                 dimensions: Dimensions { x: 3, y: 10, z: 3 },
                 offsets: TextureOffsets {
-                    top: (52,2),
-                    bottom: (55,2),
-                    right: (49,5),
-                    left: (55,5),
-                    front: (52,5),
-                    back: (59,5),
+                    top: (52, 2),
+                    bottom: (55, 2),
+                    right: (49, 5),
+                    left: (55, 5),
+                    front: (52, 5),
+                    back: (59, 5),
                 },
-                position: Transform::new().translate(1,-7,-1),
+                position: Transform::new().translate(1, -7, -1),
             },
             rear_left_leg: Cuboid {
                 dimensions: Dimensions { x: 3, y: 6, z: 3 },
                 offsets: TextureOffsets {
-                    top: (39,29),
-                    bottom: (42,29),
-                    right: (36,32),
-                    left: (42,32),
-                    front: (39,32),
-                    back: (45,32),
+                    top: (39, 29),
+                    bottom: (42, 29),
+                    right: (36, 32),
+                    left: (42, 32),
+                    front: (39, 32),
+                    back: (45, 32),
                 },
-                position: Transform::new().translate(5,-11,-11),
+                position: Transform::new().translate(5, -11, -11),
             },
             rear_right_leg: Cuboid {
                 dimensions: Dimensions { x: 3, y: 6, z: 3 },
                 offsets: TextureOffsets {
-                    top: (52,29),
-                    bottom: (55,29),
-                    right: (49,32),
-                    left: (55,32),
-                    front: (52,32),
-                    back: (59,32),
+                    top: (52, 29),
+                    bottom: (55, 29),
+                    right: (49, 32),
+                    left: (55, 32),
+                    front: (52, 32),
+                    back: (59, 32),
                 },
-                position: Transform::new().translate(1,-11,-11),
+                position: Transform::new().translate(1, -11, -11),
             },
         }
     }

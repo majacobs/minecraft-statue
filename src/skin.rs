@@ -1,6 +1,6 @@
 use crate::drawing::{Cuboid, Dimensions, TextureOffsets};
-use crate::transform::{Plane, Rotation, Transform};
 use crate::model::Model;
+use crate::transform::{Plane, Rotation, Transform};
 
 pub struct Skin {
     pub texture: String,

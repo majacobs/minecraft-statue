@@ -561,7 +561,7 @@ pub fn find_closest(color: &[u8], normal: Direction) -> Palette {
 
             closest_dist = dist;
             let p = Palette::new(&block.block_id);
-            if let Orient::With {name, value} = orient {
+            if let Orient::With { name, value } = orient {
                 palette = p.with_property(name, value);
             } else {
                 palette = p;
