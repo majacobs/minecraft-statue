@@ -14,10 +14,10 @@ impl Transform {
         }
     }
 
-    pub fn with_scale(scaling: i32) -> Self {
+    pub fn with_scale(scaling: u32) -> Self {
         Self {
             steps: vec![],
-            scaling,
+            scaling: scaling as i32,
         }
     }
 

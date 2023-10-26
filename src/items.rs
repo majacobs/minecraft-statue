@@ -12,7 +12,7 @@ pub struct Item {
 }
 
 impl Item {
-    pub fn draw(&self, structure: &mut Structure, scaling: i32) -> std::io::Result<()> {
+    pub fn draw(&self, structure: &mut Structure, scaling: u32) -> std::io::Result<()> {
         let image = ImageReader::open(&self.texture)?.decode().unwrap();
         let image = image.as_rgba8().unwrap();
 

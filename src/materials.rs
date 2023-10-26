@@ -343,7 +343,7 @@ fn read_blocks() -> Vec<Block> {
 fn read_textures(block_id: &str) -> Vec<(String, PathBuf)> {
     const BASE: &str = "minecraft/1.20.1/assets/minecraft/textures/block";
     let mut textures = vec![];
-    for result in glob(&format!("{}/{}*.png", BASE, block_id)).unwrap() {
+    for result in glob(&format!("{BASE}/{block_id}*.png")).unwrap() {
         let Ok(path) = result else { continue };
 
         let file_name = path.file_name().unwrap().to_str().unwrap();
