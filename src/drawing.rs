@@ -3,6 +3,7 @@ use crate::nbt::Structure;
 use crate::transform::{Rotation, Transform};
 use image::{GenericImageView, RgbaImage};
 
+#[derive(Clone)]
 pub struct Cuboid {
     pub dimensions: Dimensions,
     pub offsets: TextureOffsets,
@@ -103,6 +104,17 @@ pub struct Dimensions {
     pub z: u32,
 }
 
+impl From<[u32; 3]> for Dimensions {
+    fn from(value: [u32; 3]) -> Self {
+        Self {
+            x: value[0],
+            y: value[1],
+            z: value[2],
+        }
+    }
+}
+
+#[derive(Copy, Clone)]
 pub struct TextureOffsets {
     pub top: (u32, u32),
     pub bottom: (u32, u32),

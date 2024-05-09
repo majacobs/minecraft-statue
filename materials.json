@@ -1,0 +1,3762 @@
+[
+  {
+    "block_id": "acacia_log",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      150,
+      88,
+      55
+    ]
+  },
+  {
+    "block_id": "acacia_log",
+    "texturing": "axis",
+    "part": null,
+    "avg_color": [
+      103,
+      96,
+      86
+    ]
+  },
+  {
+    "block_id": "amethyst_block",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      133,
+      97,
+      191
+    ]
+  },
+  {
+    "block_id": "ancient_debris",
+    "texturing": "upright",
+    "part": "top",
+    "avg_color": [
+      94,
+      66,
+      58
+    ]
+  },
+  {
+    "block_id": "ancient_debris",
+    "texturing": "upright",
+    "part": "side",
+    "avg_color": [
+      95,
+      63,
+      55
+    ]
+  },
+  {
+    "block_id": "andesite",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      136,
+      136,
+      136
+    ]
+  },
+  {
+    "block_id": "bamboo_block",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      139,
+      141,
+      62
+    ]
+  },
+  {
+    "block_id": "bamboo_block",
+    "texturing": "axis",
+    "part": null,
+    "avg_color": [
+      127,
+      144,
+      57
+    ]
+  },
+  {
+    "block_id": "bamboo_mosaic",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      190,
+      170,
+      78
+    ]
+  },
+  {
+    "block_id": "barrel",
+    "texturing": "facing6",
+    "part": "top",
+    "avg_color": [
+      134,
+      100,
+      58
+    ]
+  },
+  {
+    "block_id": "barrel",
+    "texturing": "facing6",
+    "part": "side",
+    "avg_color": [
+      107,
+      81,
+      50
+    ]
+  },
+  {
+    "block_id": "barrel",
+    "texturing": "facing6",
+    "part": "bottom",
+    "avg_color": [
+      115,
+      85,
+      48
+    ]
+  },
+  {
+    "block_id": "basalt",
+    "texturing": "axis",
+    "part": "side",
+    "avg_color": [
+      73,
+      72,
+      77
+    ]
+  },
+  {
+    "block_id": "basalt",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      80,
+      81,
+      86
+    ]
+  },
+  {
+    "block_id": "bee_nest",
+    "texturing": "facing4",
+    "part": "top",
+    "avg_color": [
+      202,
+      160,
+      74
+    ]
+  },
+  {
+    "block_id": "bee_nest",
+    "texturing": "facing4",
+    "part": "bottom",
+    "avg_color": [
+      160,
+      127,
+      87
+    ]
+  },
+  {
+    "block_id": "bee_nest",
+    "texturing": "facing4",
+    "part": "front",
+    "avg_color": [
+      183,
+      141,
+      76
+    ]
+  },
+  {
+    "block_id": "bee_nest",
+    "texturing": "facing4",
+    "part": "side",
+    "avg_color": [
+      196,
+      150,
+      77
+    ]
+  },
+  {
+    "block_id": "beehive",
+    "texturing": "facing4",
+    "part": "end",
+    "avg_color": [
+      180,
+      146,
+      90
+    ]
+  },
+  {
+    "block_id": "beehive",
+    "texturing": "facing4",
+    "part": "side",
+    "avg_color": [
+      157,
+      126,
+      75
+    ]
+  },
+  {
+    "block_id": "beehive",
+    "texturing": "facing4",
+    "part": "front",
+    "avg_color": [
+      159,
+      128,
+      77
+    ]
+  },
+  {
+    "block_id": "birch_log",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      193,
+      179,
+      135
+    ]
+  },
+  {
+    "block_id": "birch_log",
+    "texturing": "axis",
+    "part": null,
+    "avg_color": [
+      216,
+      215,
+      210
+    ]
+  },
+  {
+    "block_id": "black_concrete",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      8,
+      10,
+      15
+    ]
+  },
+  {
+    "block_id": "black_concrete_powder",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      25,
+      26,
+      31
+    ]
+  },
+  {
+    "block_id": "black_glazed_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      67,
+      30,
+      32
+    ]
+  },
+  {
+    "block_id": "black_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      37,
+      22,
+      16
+    ]
+  },
+  {
+    "block_id": "black_wool",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      20,
+      21,
+      25
+    ]
+  },
+  {
+    "block_id": "blackstone",
+    "texturing": "upright",
+    "part": null,
+    "avg_color": [
+      42,
+      35,
+      40
+    ]
+  },
+  {
+    "block_id": "blackstone",
+    "texturing": "upright",
+    "part": "top",
+    "avg_color": [
+      42,
+      36,
+      41
+    ]
+  },
+  {
+    "block_id": "blast_furnace",
+    "texturing": "facing4",
+    "part": "top",
+    "avg_color": [
+      80,
+      80,
+      81
+    ]
+  },
+  {
+    "block_id": "blast_furnace",
+    "texturing": "facing4",
+    "part": "side",
+    "avg_color": [
+      107,
+      107,
+      107
+    ]
+  },
+  {
+    "block_id": "blast_furnace",
+    "texturing": "facing4",
+    "part": "front",
+    "avg_color": [
+      107,
+      107,
+      107
+    ]
+  },
+  {
+    "block_id": "blue_concrete",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      44,
+      46,
+      143
+    ]
+  },
+  {
+    "block_id": "blue_concrete_powder",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      70,
+      73,
+      166
+    ]
+  },
+  {
+    "block_id": "blue_glazed_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      47,
+      64,
+      139
+    ]
+  },
+  {
+    "block_id": "blue_ice",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      116,
+      167,
+      253
+    ]
+  },
+  {
+    "block_id": "blue_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      74,
+      59,
+      91
+    ]
+  },
+  {
+    "block_id": "blue_wool",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      53,
+      57,
+      157
+    ]
+  },
+  {
+    "block_id": "bone_block",
+    "texturing": "axis",
+    "part": "side",
+    "avg_color": [
+      229,
+      225,
+      207
+    ]
+  },
+  {
+    "block_id": "bone_block",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      209,
+      206,
+      179
+    ]
+  },
+  {
+    "block_id": "bookshelf",
+    "texturing": "upright",
+    "part": null,
+    "avg_color": [
+      117,
+      94,
+      59
+    ]
+  },
+  {
+    "block_id": "bricks",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      150,
+      97,
+      83
+    ]
+  },
+  {
+    "block_id": "brown_concrete",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      96,
+      59,
+      31
+    ]
+  },
+  {
+    "block_id": "brown_concrete_powder",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      125,
+      84,
+      53
+    ]
+  },
+  {
+    "block_id": "brown_glazed_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      119,
+      106,
+      85
+    ]
+  },
+  {
+    "block_id": "brown_mushroom_block",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      149,
+      111,
+      81
+    ]
+  },
+  {
+    "block_id": "brown_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      77,
+      51,
+      35
+    ]
+  },
+  {
+    "block_id": "brown_wool",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      114,
+      71,
+      40
+    ]
+  },
+  {
+    "block_id": "calcite",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      223,
+      224,
+      220
+    ]
+  },
+  {
+    "block_id": "cartography_table",
+    "texturing": "upright",
+    "part": "side3",
+    "avg_color": [
+      67,
+      43,
+      20
+    ]
+  },
+  {
+    "block_id": "cartography_table",
+    "texturing": "upright",
+    "part": "side2",
+    "avg_color": [
+      81,
+      61,
+      42
+    ]
+  },
+  {
+    "block_id": "cartography_table",
+    "texturing": "upright",
+    "part": "side1",
+    "avg_color": [
+      70,
+      50,
+      34
+    ]
+  },
+  {
+    "block_id": "cartography_table",
+    "texturing": "upright",
+    "part": "top",
+    "avg_color": [
+      103,
+      87,
+      67
+    ]
+  },
+  {
+    "block_id": "carved_pumpkin",
+    "texturing": "facing4",
+    "part": null,
+    "avg_color": [
+      150,
+      84,
+      17
+    ]
+  },
+  {
+    "block_id": "cauldron",
+    "texturing": "upright",
+    "part": "bottom",
+    "avg_color": [
+      40,
+      40,
+      44
+    ]
+  },
+  {
+    "block_id": "cauldron",
+    "texturing": "upright",
+    "part": "side",
+    "avg_color": [
+      74,
+      73,
+      74
+    ]
+  },
+  {
+    "block_id": "cauldron",
+    "texturing": "upright",
+    "part": "inner",
+    "avg_color": [
+      49,
+      49,
+      53
+    ]
+  },
+  {
+    "block_id": "cauldron",
+    "texturing": "upright",
+    "part": "top",
+    "avg_color": [
+      73,
+      72,
+      74
+    ]
+  },
+  {
+    "block_id": "cherry_log",
+    "texturing": "axis",
+    "part": null,
+    "avg_color": [
+      54,
+      33,
+      44
+    ]
+  },
+  {
+    "block_id": "cherry_log",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      185,
+      141,
+      137
+    ]
+  },
+  {
+    "block_id": "chiseled_bookshelf",
+    "texturing": "facing4",
+    "part": "empty",
+    "avg_color": [
+      90,
+      70,
+      41
+    ]
+  },
+  {
+    "block_id": "chiseled_bookshelf",
+    "texturing": "facing4",
+    "part": "side",
+    "avg_color": [
+      175,
+      141,
+      86
+    ]
+  },
+  {
+    "block_id": "chiseled_bookshelf",
+    "texturing": "facing4",
+    "part": "occupied",
+    "avg_color": [
+      121,
+      94,
+      69
+    ]
+  },
+  {
+    "block_id": "chiseled_bookshelf",
+    "texturing": "facing4",
+    "part": "top",
+    "avg_color": [
+      178,
+      144,
+      88
+    ]
+  },
+  {
+    "block_id": "chiseled_deepslate",
+    "texturing": "upright",
+    "part": null,
+    "avg_color": [
+      54,
+      54,
+      54
+    ]
+  },
+  {
+    "block_id": "chiseled_nether_bricks",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      47,
+      23,
+      28
+    ]
+  },
+  {
+    "block_id": "chiseled_polished_blackstone",
+    "texturing": "upright",
+    "part": null,
+    "avg_color": [
+      53,
+      48,
+      56
+    ]
+  },
+  {
+    "block_id": "chiseled_quartz_block",
+    "texturing": "upright",
+    "part": null,
+    "avg_color": [
+      231,
+      226,
+      218
+    ]
+  },
+  {
+    "block_id": "chiseled_quartz_block",
+    "texturing": "upright",
+    "part": "top",
+    "avg_color": [
+      231,
+      226,
+      217
+    ]
+  },
+  {
+    "block_id": "chiseled_red_sandstone",
+    "texturing": "upright",
+    "part": null,
+    "avg_color": [
+      183,
+      96,
+      27
+    ]
+  },
+  {
+    "block_id": "chiseled_sandstone",
+    "texturing": "upright",
+    "part": null,
+    "avg_color": [
+      216,
+      202,
+      155
+    ]
+  },
+  {
+    "block_id": "chiseled_stone_bricks",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      119,
+      118,
+      119
+    ]
+  },
+  {
+    "block_id": "clay",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      160,
+      166,
+      179
+    ]
+  },
+  {
+    "block_id": "coal_block",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      16,
+      15,
+      15
+    ]
+  },
+  {
+    "block_id": "coal_ore",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      105,
+      105,
+      105
+    ]
+  },
+  {
+    "block_id": "coarse_dirt",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      119,
+      85,
+      59
+    ]
+  },
+  {
+    "block_id": "cobbled_deepslate",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      77,
+      77,
+      80
+    ]
+  },
+  {
+    "block_id": "cobblestone",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      127,
+      127,
+      127
+    ]
+  },
+  {
+    "block_id": "composter",
+    "texturing": "upright",
+    "part": "bottom",
+    "avg_color": [
+      116,
+      71,
+      32
+    ]
+  },
+  {
+    "block_id": "composter",
+    "texturing": "upright",
+    "part": "top",
+    "avg_color": [
+      152,
+      98,
+      51
+    ]
+  },
+  {
+    "block_id": "composter",
+    "texturing": "upright",
+    "part": "side",
+    "avg_color": [
+      112,
+      70,
+      31
+    ]
+  },
+  {
+    "block_id": "composter",
+    "texturing": "upright",
+    "part": "ready",
+    "avg_color": [
+      116,
+      93,
+      56
+    ]
+  },
+  {
+    "block_id": "composter",
+    "texturing": "upright",
+    "part": "compost",
+    "avg_color": [
+      88,
+      61,
+      23
+    ]
+  },
+  {
+    "block_id": "copper_ore",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      124,
+      125,
+      120
+    ]
+  },
+  {
+    "block_id": "cracked_deepslate_bricks",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      64,
+      64,
+      65
+    ]
+  },
+  {
+    "block_id": "cracked_deepslate_tiles",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      52,
+      52,
+      52
+    ]
+  },
+  {
+    "block_id": "cracked_nether_bricks",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      40,
+      20,
+      23
+    ]
+  },
+  {
+    "block_id": "cracked_polished_blackstone_bricks",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      44,
+      37,
+      43
+    ]
+  },
+  {
+    "block_id": "cracked_stone_bricks",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      118,
+      117,
+      118
+    ]
+  },
+  {
+    "block_id": "crafting_table",
+    "texturing": "upright",
+    "part": "top",
+    "avg_color": [
+      119,
+      73,
+      42
+    ]
+  },
+  {
+    "block_id": "crafting_table",
+    "texturing": "upright",
+    "part": "front",
+    "avg_color": [
+      129,
+      105,
+      70
+    ]
+  },
+  {
+    "block_id": "crafting_table",
+    "texturing": "upright",
+    "part": "side",
+    "avg_color": [
+      128,
+      102,
+      63
+    ]
+  },
+  {
+    "block_id": "crimson_nylium",
+    "texturing": "uniform",
+    "part": "side",
+    "avg_color": [
+      107,
+      26,
+      26
+    ]
+  },
+  {
+    "block_id": "crimson_nylium",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      130,
+      31,
+      31
+    ]
+  },
+  {
+    "block_id": "crimson_stem",
+    "texturing": "axis",
+    "part": null,
+    "avg_color": [
+      92,
+      25,
+      29
+    ]
+  },
+  {
+    "block_id": "crimson_stem",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      112,
+      49,
+      70
+    ]
+  },
+  {
+    "block_id": "crying_obsidian",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      32,
+      10,
+      60
+    ]
+  },
+  {
+    "block_id": "cut_red_sandstone",
+    "texturing": "upright",
+    "part": null,
+    "avg_color": [
+      189,
+      101,
+      31
+    ]
+  },
+  {
+    "block_id": "cut_sandstone",
+    "texturing": "upright",
+    "part": null,
+    "avg_color": [
+      217,
+      206,
+      159
+    ]
+  },
+  {
+    "block_id": "cyan_concrete",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      21,
+      119,
+      136
+    ]
+  },
+  {
+    "block_id": "cyan_concrete_powder",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      36,
+      147,
+      157
+    ]
+  },
+  {
+    "block_id": "cyan_glazed_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      52,
+      118,
+      125
+    ]
+  },
+  {
+    "block_id": "cyan_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      86,
+      91,
+      91
+    ]
+  },
+  {
+    "block_id": "cyan_wool",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      21,
+      137,
+      145
+    ]
+  },
+  {
+    "block_id": "dark_oak_log",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      67,
+      45,
+      22
+    ]
+  },
+  {
+    "block_id": "dark_oak_log",
+    "texturing": "axis",
+    "part": null,
+    "avg_color": [
+      60,
+      46,
+      26
+    ]
+  },
+  {
+    "block_id": "dark_prismarine",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      51,
+      91,
+      75
+    ]
+  },
+  {
+    "block_id": "dead_brain_coral_block",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      124,
+      117,
+      114
+    ]
+  },
+  {
+    "block_id": "dead_bubble_coral_block",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      131,
+      123,
+      119
+    ]
+  },
+  {
+    "block_id": "dead_fire_coral_block",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      131,
+      123,
+      119
+    ]
+  },
+  {
+    "block_id": "dead_horn_coral_block",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      133,
+      126,
+      122
+    ]
+  },
+  {
+    "block_id": "dead_tube_coral_block",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      130,
+      123,
+      119
+    ]
+  },
+  {
+    "block_id": "deepslate",
+    "texturing": "axis",
+    "part": null,
+    "avg_color": [
+      80,
+      80,
+      82
+    ]
+  },
+  {
+    "block_id": "deepslate",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      87,
+      87,
+      89
+    ]
+  },
+  {
+    "block_id": "deepslate_bricks",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      70,
+      70,
+      71
+    ]
+  },
+  {
+    "block_id": "deepslate_coal_ore",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      74,
+      74,
+      76
+    ]
+  },
+  {
+    "block_id": "deepslate_copper_ore",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      92,
+      93,
+      89
+    ]
+  },
+  {
+    "block_id": "deepslate_diamond_ore",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      83,
+      106,
+      106
+    ]
+  },
+  {
+    "block_id": "deepslate_emerald_ore",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      78,
+      104,
+      87
+    ]
+  },
+  {
+    "block_id": "deepslate_gold_ore",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      115,
+      102,
+      78
+    ]
+  },
+  {
+    "block_id": "deepslate_iron_ore",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      106,
+      99,
+      94
+    ]
+  },
+  {
+    "block_id": "deepslate_lapis_ore",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      79,
+      90,
+      115
+    ]
+  },
+  {
+    "block_id": "deepslate_redstone_ore",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      104,
+      73,
+      74
+    ]
+  },
+  {
+    "block_id": "deepslate_tiles",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      54,
+      54,
+      55
+    ]
+  },
+  {
+    "block_id": "diamond_block",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      98,
+      237,
+      228
+    ]
+  },
+  {
+    "block_id": "diamond_ore",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      121,
+      141,
+      140
+    ]
+  },
+  {
+    "block_id": "diorite",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      188,
+      188,
+      188
+    ]
+  },
+  {
+    "block_id": "dirt",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      134,
+      96,
+      67
+    ]
+  },
+  {
+    "block_id": "dirt_path",
+    "texturing": "upright",
+    "part": "side",
+    "avg_color": [
+      136,
+      101,
+      66
+    ]
+  },
+  {
+    "block_id": "dirt_path",
+    "texturing": "upright",
+    "part": "top",
+    "avg_color": [
+      148,
+      121,
+      65
+    ]
+  },
+  {
+    "block_id": "dispenser",
+    "texturing": "facing6",
+    "part": "front",
+    "avg_color": [
+      122,
+      121,
+      121
+    ]
+  },
+  {
+    "block_id": "dripstone_block",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      134,
+      107,
+      92
+    ]
+  },
+  {
+    "block_id": "dropper",
+    "texturing": "facing6",
+    "part": "front",
+    "avg_color": [
+      122,
+      121,
+      121
+    ]
+  },
+  {
+    "block_id": "emerald_block",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      42,
+      203,
+      87
+    ]
+  },
+  {
+    "block_id": "emerald_ore",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      108,
+      136,
+      115
+    ]
+  },
+  {
+    "block_id": "end_stone",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      219,
+      222,
+      158
+    ]
+  },
+  {
+    "block_id": "end_stone_bricks",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      218,
+      224,
+      162
+    ]
+  },
+  {
+    "block_id": "fletching_table",
+    "texturing": "upright",
+    "part": "front",
+    "avg_color": [
+      173,
+      155,
+      111
+    ]
+  },
+  {
+    "block_id": "fletching_table",
+    "texturing": "upright",
+    "part": "side",
+    "avg_color": [
+      191,
+      167,
+      129
+    ]
+  },
+  {
+    "block_id": "fletching_table",
+    "texturing": "upright",
+    "part": "top",
+    "avg_color": [
+      197,
+      180,
+      133
+    ]
+  },
+  {
+    "block_id": "furnace",
+    "texturing": "facing4",
+    "part": "top",
+    "avg_color": [
+      110,
+      109,
+      109
+    ]
+  },
+  {
+    "block_id": "furnace",
+    "texturing": "facing4",
+    "part": "front",
+    "avg_color": [
+      91,
+      91,
+      91
+    ]
+  },
+  {
+    "block_id": "furnace",
+    "texturing": "facing4",
+    "part": "side",
+    "avg_color": [
+      120,
+      120,
+      120
+    ]
+  },
+  {
+    "block_id": "gilded_blackstone",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      55,
+      42,
+      38
+    ]
+  },
+  {
+    "block_id": "glowstone",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      171,
+      131,
+      84
+    ]
+  },
+  {
+    "block_id": "gold_block",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      246,
+      208,
+      61
+    ]
+  },
+  {
+    "block_id": "gold_ore",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      145,
+      133,
+      106
+    ]
+  },
+  {
+    "block_id": "granite",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      149,
+      103,
+      85
+    ]
+  },
+  {
+    "block_id": "gravel",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      131,
+      127,
+      126
+    ]
+  },
+  {
+    "block_id": "gray_concrete",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      54,
+      57,
+      61
+    ]
+  },
+  {
+    "block_id": "gray_concrete_powder",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      76,
+      81,
+      84
+    ]
+  },
+  {
+    "block_id": "gray_glazed_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      83,
+      90,
+      93
+    ]
+  },
+  {
+    "block_id": "gray_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      57,
+      42,
+      35
+    ]
+  },
+  {
+    "block_id": "gray_wool",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      62,
+      68,
+      71
+    ]
+  },
+  {
+    "block_id": "green_concrete",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      73,
+      91,
+      36
+    ]
+  },
+  {
+    "block_id": "green_concrete_powder",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      97,
+      119,
+      44
+    ]
+  },
+  {
+    "block_id": "green_glazed_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      117,
+      142,
+      67
+    ]
+  },
+  {
+    "block_id": "green_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      76,
+      83,
+      42
+    ]
+  },
+  {
+    "block_id": "green_wool",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      84,
+      109,
+      27
+    ]
+  },
+  {
+    "block_id": "hay_block",
+    "texturing": "axis",
+    "part": "side",
+    "avg_color": [
+      166,
+      136,
+      38
+    ]
+  },
+  {
+    "block_id": "hay_block",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      165,
+      139,
+      12
+    ]
+  },
+  {
+    "block_id": "honey_block",
+    "texturing": "uniform",
+    "part": "top",
+    "avg_color": [
+      251,
+      185,
+      52
+    ]
+  },
+  {
+    "block_id": "honey_block",
+    "texturing": "uniform",
+    "part": "side",
+    "avg_color": [
+      250,
+      188,
+      57
+    ]
+  },
+  {
+    "block_id": "honey_block",
+    "texturing": "uniform",
+    "part": "bottom",
+    "avg_color": [
+      241,
+      146,
+      17
+    ]
+  },
+  {
+    "block_id": "honeycomb_block",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      229,
+      148,
+      29
+    ]
+  },
+  {
+    "block_id": "iron_block",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      220,
+      220,
+      220
+    ]
+  },
+  {
+    "block_id": "iron_ore",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      136,
+      129,
+      122
+    ]
+  },
+  {
+    "block_id": "jack_o_lantern",
+    "texturing": "facing4",
+    "part": null,
+    "avg_color": [
+      214,
+      152,
+      52
+    ]
+  },
+  {
+    "block_id": "jukebox",
+    "texturing": "upright",
+    "part": "side",
+    "avg_color": [
+      88,
+      58,
+      40
+    ]
+  },
+  {
+    "block_id": "jukebox",
+    "texturing": "upright",
+    "part": "top",
+    "avg_color": [
+      93,
+      64,
+      47
+    ]
+  },
+  {
+    "block_id": "jungle_log",
+    "texturing": "axis",
+    "part": null,
+    "avg_color": [
+      85,
+      67,
+      25
+    ]
+  },
+  {
+    "block_id": "jungle_log",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      149,
+      109,
+      70
+    ]
+  },
+  {
+    "block_id": "lapis_block",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      30,
+      67,
+      140
+    ]
+  },
+  {
+    "block_id": "lapis_ore",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      107,
+      117,
+      141
+    ]
+  },
+  {
+    "block_id": "light_blue_concrete",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      35,
+      137,
+      198
+    ]
+  },
+  {
+    "block_id": "light_blue_concrete_powder",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      74,
+      180,
+      213
+    ]
+  },
+  {
+    "block_id": "light_blue_glazed_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      94,
+      164,
+      208
+    ]
+  },
+  {
+    "block_id": "light_blue_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      113,
+      108,
+      137
+    ]
+  },
+  {
+    "block_id": "light_blue_wool",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      58,
+      175,
+      217
+    ]
+  },
+  {
+    "block_id": "light_gray_concrete",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      125,
+      125,
+      115
+    ]
+  },
+  {
+    "block_id": "light_gray_concrete_powder",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      154,
+      154,
+      148
+    ]
+  },
+  {
+    "block_id": "light_gray_glazed_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      144,
+      166,
+      167
+    ]
+  },
+  {
+    "block_id": "light_gray_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      135,
+      106,
+      97
+    ]
+  },
+  {
+    "block_id": "light_gray_wool",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      142,
+      142,
+      134
+    ]
+  },
+  {
+    "block_id": "lime_concrete",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      94,
+      168,
+      24
+    ]
+  },
+  {
+    "block_id": "lime_concrete_powder",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      125,
+      189,
+      41
+    ]
+  },
+  {
+    "block_id": "lime_glazed_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      162,
+      197,
+      55
+    ]
+  },
+  {
+    "block_id": "lime_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      103,
+      117,
+      52
+    ]
+  },
+  {
+    "block_id": "lime_wool",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      112,
+      185,
+      25
+    ]
+  },
+  {
+    "block_id": "lodestone",
+    "texturing": "upright",
+    "part": "top",
+    "avg_color": [
+      147,
+      149,
+      152
+    ]
+  },
+  {
+    "block_id": "lodestone",
+    "texturing": "upright",
+    "part": "side",
+    "avg_color": [
+      119,
+      119,
+      123
+    ]
+  },
+  {
+    "block_id": "loom",
+    "texturing": "facing4",
+    "part": "bottom",
+    "avg_color": [
+      76,
+      60,
+      36
+    ]
+  },
+  {
+    "block_id": "loom",
+    "texturing": "facing4",
+    "part": "front",
+    "avg_color": [
+      148,
+      118,
+      82
+    ]
+  },
+  {
+    "block_id": "loom",
+    "texturing": "facing4",
+    "part": "side",
+    "avg_color": [
+      145,
+      101,
+      72
+    ]
+  },
+  {
+    "block_id": "loom",
+    "texturing": "facing4",
+    "part": "top",
+    "avg_color": [
+      142,
+      119,
+      91
+    ]
+  },
+  {
+    "block_id": "magenta_concrete",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      169,
+      48,
+      159
+    ]
+  },
+  {
+    "block_id": "magenta_concrete_powder",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      192,
+      83,
+      184
+    ]
+  },
+  {
+    "block_id": "magenta_glazed_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      208,
+      100,
+      191
+    ]
+  },
+  {
+    "block_id": "magenta_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      149,
+      88,
+      108
+    ]
+  },
+  {
+    "block_id": "magenta_wool",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      189,
+      68,
+      179
+    ]
+  },
+  {
+    "block_id": "mangrove_log",
+    "texturing": "axis",
+    "part": null,
+    "avg_color": [
+      83,
+      66,
+      41
+    ]
+  },
+  {
+    "block_id": "mangrove_log",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      102,
+      48,
+      42
+    ]
+  },
+  {
+    "block_id": "mangrove_roots",
+    "texturing": "upright",
+    "part": "top",
+    "avg_color": [
+      74,
+      59,
+      38
+    ]
+  },
+  {
+    "block_id": "mangrove_roots",
+    "texturing": "upright",
+    "part": "side",
+    "avg_color": [
+      75,
+      59,
+      38
+    ]
+  },
+  {
+    "block_id": "melon",
+    "texturing": "upright",
+    "part": "side",
+    "avg_color": [
+      114,
+      146,
+      30
+    ]
+  },
+  {
+    "block_id": "melon",
+    "texturing": "upright",
+    "part": "top",
+    "avg_color": [
+      111,
+      144,
+      30
+    ]
+  },
+  {
+    "block_id": "moss_block",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      89,
+      109,
+      45
+    ]
+  },
+  {
+    "block_id": "mossy_cobblestone",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      110,
+      118,
+      94
+    ]
+  },
+  {
+    "block_id": "mossy_stone_bricks",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      115,
+      121,
+      105
+    ]
+  },
+  {
+    "block_id": "mud",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      60,
+      57,
+      60
+    ]
+  },
+  {
+    "block_id": "mud_bricks",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      137,
+      103,
+      79
+    ]
+  },
+  {
+    "block_id": "muddy_mangrove_roots",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      70,
+      58,
+      45
+    ]
+  },
+  {
+    "block_id": "muddy_mangrove_roots",
+    "texturing": "axis",
+    "part": "side",
+    "avg_color": [
+      68,
+      58,
+      48
+    ]
+  },
+  {
+    "block_id": "mycelium",
+    "texturing": "upright",
+    "part": "side",
+    "avg_color": [
+      113,
+      87,
+      71
+    ]
+  },
+  {
+    "block_id": "mycelium",
+    "texturing": "upright",
+    "part": "top",
+    "avg_color": [
+      111,
+      98,
+      101
+    ]
+  },
+  {
+    "block_id": "nether_bricks",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      44,
+      21,
+      26
+    ]
+  },
+  {
+    "block_id": "nether_gold_ore",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      115,
+      54,
+      42
+    ]
+  },
+  {
+    "block_id": "nether_quartz_ore",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      117,
+      65,
+      62
+    ]
+  },
+  {
+    "block_id": "nether_wart_block",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      114,
+      2,
+      2
+    ]
+  },
+  {
+    "block_id": "netherite_block",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      66,
+      61,
+      63
+    ]
+  },
+  {
+    "block_id": "netherrack",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      97,
+      38,
+      38
+    ]
+  },
+  {
+    "block_id": "note_block",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      88,
+      58,
+      40
+    ]
+  },
+  {
+    "block_id": "oak_log",
+    "texturing": "axis",
+    "part": null,
+    "avg_color": [
+      109,
+      85,
+      50
+    ]
+  },
+  {
+    "block_id": "oak_log",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      151,
+      121,
+      73
+    ]
+  },
+  {
+    "block_id": "observer",
+    "texturing": "facing6",
+    "part": "back",
+    "avg_color": [
+      71,
+      69,
+      69
+    ]
+  },
+  {
+    "block_id": "observer",
+    "texturing": "facing6",
+    "part": "top",
+    "avg_color": [
+      98,
+      98,
+      98
+    ]
+  },
+  {
+    "block_id": "observer",
+    "texturing": "facing6",
+    "part": "side",
+    "avg_color": [
+      70,
+      68,
+      68
+    ]
+  },
+  {
+    "block_id": "observer",
+    "texturing": "facing6",
+    "part": "front",
+    "avg_color": [
+      103,
+      103,
+      103
+    ]
+  },
+  {
+    "block_id": "obsidian",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      15,
+      10,
+      24
+    ]
+  },
+  {
+    "block_id": "ochre_froglight",
+    "texturing": "axis",
+    "part": "side",
+    "avg_color": [
+      245,
+      233,
+      181
+    ]
+  },
+  {
+    "block_id": "ochre_froglight",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      250,
+      245,
+      206
+    ]
+  },
+  {
+    "block_id": "orange_concrete",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      224,
+      97,
+      0
+    ]
+  },
+  {
+    "block_id": "orange_concrete_powder",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      227,
+      131,
+      31
+    ]
+  },
+  {
+    "block_id": "orange_glazed_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      154,
+      147,
+      91
+    ]
+  },
+  {
+    "block_id": "orange_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      161,
+      83,
+      37
+    ]
+  },
+  {
+    "block_id": "orange_wool",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      240,
+      118,
+      19
+    ]
+  },
+  {
+    "block_id": "packed_ice",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      141,
+      180,
+      250
+    ]
+  },
+  {
+    "block_id": "packed_mud",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      142,
+      106,
+      79
+    ]
+  },
+  {
+    "block_id": "pearlescent_froglight",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      245,
+      240,
+      239
+    ]
+  },
+  {
+    "block_id": "pearlescent_froglight",
+    "texturing": "axis",
+    "part": "side",
+    "avg_color": [
+      235,
+      224,
+      228
+    ]
+  },
+  {
+    "block_id": "pink_concrete",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      213,
+      101,
+      142
+    ]
+  },
+  {
+    "block_id": "pink_concrete_powder",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      228,
+      153,
+      181
+    ]
+  },
+  {
+    "block_id": "pink_glazed_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      235,
+      154,
+      181
+    ]
+  },
+  {
+    "block_id": "pink_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      161,
+      78,
+      78
+    ]
+  },
+  {
+    "block_id": "pink_wool",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      237,
+      141,
+      172
+    ]
+  },
+  {
+    "block_id": "podzol",
+    "texturing": "upright",
+    "part": "side",
+    "avg_color": [
+      122,
+      87,
+      57
+    ]
+  },
+  {
+    "block_id": "podzol",
+    "texturing": "upright",
+    "part": "top",
+    "avg_color": [
+      91,
+      63,
+      24
+    ]
+  },
+  {
+    "block_id": "piston",
+    "texturing": "facing6",
+    "part": "top",
+    "avg_color": [
+      153,
+      127,
+      85
+    ]
+  },
+  {
+    "block_id": "piston",
+    "texturing": "facing6",
+    "part": "side",
+    "avg_color": [
+      109,
+      104,
+      96
+    ]
+  },
+  {
+    "block_id": "piston",
+    "texturing": "facing6",
+    "part": "inner",
+    "avg_color": [
+      97,
+      97,
+      97
+    ]
+  },
+  {
+    "block_id": "piston",
+    "texturing": "facing6",
+    "part": "bottom",
+    "avg_color": [
+      97,
+      96,
+      96
+    ]
+  },
+  {
+    "block_id": "polished_andesite",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      132,
+      134,
+      133
+    ]
+  },
+  {
+    "block_id": "polished_basalt",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      99,
+      98,
+      100
+    ]
+  },
+  {
+    "block_id": "polished_basalt",
+    "texturing": "axis",
+    "part": "side",
+    "avg_color": [
+      88,
+      88,
+      91
+    ]
+  },
+  {
+    "block_id": "polished_blackstone",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      53,
+      48,
+      56
+    ]
+  },
+  {
+    "block_id": "polished_blackstone_bricks",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      48,
+      42,
+      49
+    ]
+  },
+  {
+    "block_id": "polished_deepslate",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      72,
+      72,
+      73
+    ]
+  },
+  {
+    "block_id": "polished_diorite",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      192,
+      193,
+      194
+    ]
+  },
+  {
+    "block_id": "polished_granite",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      154,
+      106,
+      89
+    ]
+  },
+  {
+    "block_id": "powder_snow",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      248,
+      253,
+      253
+    ]
+  },
+  {
+    "block_id": "prismarine",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      99,
+      156,
+      151
+    ]
+  },
+  {
+    "block_id": "prismarine_bricks",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      99,
+      171,
+      158
+    ]
+  },
+  {
+    "block_id": "pumpkin",
+    "texturing": "facing4",
+    "part": "stem",
+    "avg_color": [
+      154,
+      154,
+      154
+    ]
+  },
+  {
+    "block_id": "pumpkin",
+    "texturing": "facing4",
+    "part": "top",
+    "avg_color": [
+      198,
+      118,
+      24
+    ]
+  },
+  {
+    "block_id": "pumpkin",
+    "texturing": "facing4",
+    "part": "side",
+    "avg_color": [
+      195,
+      114,
+      24
+    ]
+  },
+  {
+    "block_id": "purple_concrete",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      100,
+      31,
+      156
+    ]
+  },
+  {
+    "block_id": "purple_concrete_powder",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      131,
+      55,
+      177
+    ]
+  },
+  {
+    "block_id": "purple_glazed_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      109,
+      47,
+      152
+    ]
+  },
+  {
+    "block_id": "purple_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      118,
+      70,
+      86
+    ]
+  },
+  {
+    "block_id": "purple_wool",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      121,
+      42,
+      172
+    ]
+  },
+  {
+    "block_id": "purpur_block",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      169,
+      125,
+      169
+    ]
+  },
+  {
+    "block_id": "purpur_pillar",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      171,
+      128,
+      171
+    ]
+  },
+  {
+    "block_id": "purpur_pillar",
+    "texturing": "axis",
+    "part": null,
+    "avg_color": [
+      171,
+      129,
+      171
+    ]
+  },
+  {
+    "block_id": "quartz_block",
+    "texturing": "upright",
+    "part": "top",
+    "avg_color": [
+      235,
+      229,
+      222
+    ]
+  },
+  {
+    "block_id": "quartz_block",
+    "texturing": "upright",
+    "part": "side",
+    "avg_color": [
+      235,
+      229,
+      222
+    ]
+  },
+  {
+    "block_id": "quartz_block",
+    "texturing": "upright",
+    "part": "bottom",
+    "avg_color": [
+      236,
+      230,
+      223
+    ]
+  },
+  {
+    "block_id": "quartz_bricks",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      234,
+      229,
+      221
+    ]
+  },
+  {
+    "block_id": "quartz_pillar",
+    "texturing": "axis",
+    "part": null,
+    "avg_color": [
+      235,
+      230,
+      224
+    ]
+  },
+  {
+    "block_id": "quartz_pillar",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      235,
+      229,
+      222
+    ]
+  },
+  {
+    "block_id": "raw_copper_block",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      154,
+      105,
+      79
+    ]
+  },
+  {
+    "block_id": "raw_gold_block",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      221,
+      169,
+      46
+    ]
+  },
+  {
+    "block_id": "raw_iron_block",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      166,
+      135,
+      107
+    ]
+  },
+  {
+    "block_id": "red_concrete",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      142,
+      32,
+      32
+    ]
+  },
+  {
+    "block_id": "red_concrete_powder",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      168,
+      54,
+      50
+    ]
+  },
+  {
+    "block_id": "red_glazed_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      181,
+      59,
+      53
+    ]
+  },
+  {
+    "block_id": "red_mushroom_block",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      200,
+      46,
+      45
+    ]
+  },
+  {
+    "block_id": "red_nether_bricks",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      69,
+      7,
+      9
+    ]
+  },
+  {
+    "block_id": "red_sand",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      190,
+      102,
+      33
+    ]
+  },
+  {
+    "block_id": "red_sandstone",
+    "texturing": "upright",
+    "part": "bottom",
+    "avg_color": [
+      185,
+      98,
+      28
+    ]
+  },
+  {
+    "block_id": "red_sandstone",
+    "texturing": "upright",
+    "part": null,
+    "avg_color": [
+      186,
+      99,
+      29
+    ]
+  },
+  {
+    "block_id": "red_sandstone",
+    "texturing": "upright",
+    "part": "top",
+    "avg_color": [
+      181,
+      97,
+      31
+    ]
+  },
+  {
+    "block_id": "red_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      143,
+      61,
+      46
+    ]
+  },
+  {
+    "block_id": "red_wool",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      160,
+      39,
+      34
+    ]
+  },
+  {
+    "block_id": "redstone_block",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      175,
+      24,
+      5
+    ]
+  },
+  {
+    "block_id": "redstone_ore",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      140,
+      109,
+      109
+    ]
+  },
+  {
+    "block_id": "respawn_anchor",
+    "texturing": "upright",
+    "part": "side4",
+    "avg_color": [
+      49,
+      32,
+      68
+    ]
+  },
+  {
+    "block_id": "respawn_anchor",
+    "texturing": "upright",
+    "part": "side1",
+    "avg_color": [
+      42,
+      26,
+      64
+    ]
+  },
+  {
+    "block_id": "respawn_anchor",
+    "texturing": "upright",
+    "part": "side2",
+    "avg_color": [
+      44,
+      28,
+      65
+    ]
+  },
+  {
+    "block_id": "respawn_anchor",
+    "texturing": "upright",
+    "part": "side3",
+    "avg_color": [
+      47,
+      30,
+      66
+    ]
+  },
+  {
+    "block_id": "respawn_anchor",
+    "texturing": "upright",
+    "part": "side0",
+    "avg_color": [
+      39,
+      23,
+      62
+    ]
+  },
+  {
+    "block_id": "respawn_anchor",
+    "texturing": "upright",
+    "part": "bottom",
+    "avg_color": [
+      32,
+      10,
+      60
+    ]
+  },
+  {
+    "block_id": "respawn_anchor",
+    "texturing": "upright",
+    "part": "top",
+    "avg_color": [
+      76,
+      23,
+      150
+    ]
+  },
+  {
+    "block_id": "rooted_dirt",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      144,
+      103,
+      76
+    ]
+  },
+  {
+    "block_id": "sand",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      219,
+      207,
+      163
+    ]
+  },
+  {
+    "block_id": "sandstone",
+    "texturing": "upright",
+    "part": null,
+    "avg_color": [
+      216,
+      203,
+      155
+    ]
+  },
+  {
+    "block_id": "sandstone",
+    "texturing": "upright",
+    "part": "top",
+    "avg_color": [
+      223,
+      214,
+      170
+    ]
+  },
+  {
+    "block_id": "sandstone",
+    "texturing": "upright",
+    "part": "bottom",
+    "avg_color": [
+      215,
+      202,
+      154
+    ]
+  },
+  {
+    "block_id": "sculk",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      12,
+      29,
+      36
+    ]
+  },
+  {
+    "block_id": "sculk_catalyst",
+    "texturing": "upright",
+    "part": "top",
+    "avg_color": [
+      15,
+      31,
+      38
+    ]
+  },
+  {
+    "block_id": "sculk_catalyst",
+    "texturing": "upright",
+    "part": "side",
+    "avg_color": [
+      76,
+      93,
+      90
+    ]
+  },
+  {
+    "block_id": "sculk_catalyst",
+    "texturing": "upright",
+    "part": "bottom",
+    "avg_color": [
+      89,
+      109,
+      109
+    ]
+  },
+  {
+    "block_id": "sea_lantern",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      172,
+      199,
+      190
+    ]
+  },
+  {
+    "block_id": "shroomlight",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      240,
+      146,
+      70
+    ]
+  },
+  {
+    "block_id": "smithing_table",
+    "texturing": "upright",
+    "part": "side",
+    "avg_color": [
+      55,
+      35,
+      35
+    ]
+  },
+  {
+    "block_id": "smithing_table",
+    "texturing": "upright",
+    "part": "top",
+    "avg_color": [
+      57,
+      58,
+      70
+    ]
+  },
+  {
+    "block_id": "smithing_table",
+    "texturing": "upright",
+    "part": "front",
+    "avg_color": [
+      56,
+      37,
+      38
+    ]
+  },
+  {
+    "block_id": "smithing_table",
+    "texturing": "upright",
+    "part": "bottom",
+    "avg_color": [
+      64,
+      28,
+      23
+    ]
+  },
+  {
+    "block_id": "smoker",
+    "texturing": "facing4",
+    "part": "top",
+    "avg_color": [
+      85,
+      83,
+      81
+    ]
+  },
+  {
+    "block_id": "smoker",
+    "texturing": "facing4",
+    "part": "side",
+    "avg_color": [
+      102,
+      91,
+      75
+    ]
+  },
+  {
+    "block_id": "smoker",
+    "texturing": "facing4",
+    "part": "bottom",
+    "avg_color": [
+      107,
+      105,
+      103
+    ]
+  },
+  {
+    "block_id": "smoker",
+    "texturing": "facing4",
+    "part": "front",
+    "avg_color": [
+      87,
+      75,
+      57
+    ]
+  },
+  {
+    "block_id": "smooth_basalt",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      72,
+      72,
+      78
+    ]
+  },
+  {
+    "block_id": "smooth_stone",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      158,
+      158,
+      158
+    ]
+  },
+  {
+    "block_id": "soul_sand",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      81,
+      62,
+      50
+    ]
+  },
+  {
+    "block_id": "soul_soil",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      75,
+      57,
+      46
+    ]
+  },
+  {
+    "block_id": "sponge",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      195,
+      192,
+      74
+    ]
+  },
+  {
+    "block_id": "spruce_log",
+    "texturing": "axis",
+    "part": null,
+    "avg_color": [
+      58,
+      37,
+      16
+    ]
+  },
+  {
+    "block_id": "spruce_log",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      108,
+      80,
+      46
+    ]
+  },
+  {
+    "block_id": "stone",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      125,
+      125,
+      125
+    ]
+  },
+  {
+    "block_id": "stone_bricks",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      122,
+      121,
+      122
+    ]
+  },
+  {
+    "block_id": "stripped_acacia_log",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      166,
+      91,
+      51
+    ]
+  },
+  {
+    "block_id": "stripped_acacia_log",
+    "texturing": "axis",
+    "part": null,
+    "avg_color": [
+      174,
+      92,
+      59
+    ]
+  },
+  {
+    "block_id": "stripped_bamboo_block",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      178,
+      158,
+      72
+    ]
+  },
+  {
+    "block_id": "stripped_bamboo_block",
+    "texturing": "axis",
+    "part": null,
+    "avg_color": [
+      193,
+      173,
+      80
+    ]
+  },
+  {
+    "block_id": "stripped_birch_log",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      191,
+      171,
+      116
+    ]
+  },
+  {
+    "block_id": "stripped_birch_log",
+    "texturing": "axis",
+    "part": null,
+    "avg_color": [
+      196,
+      176,
+      118
+    ]
+  },
+  {
+    "block_id": "stripped_cherry_log",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      221,
+      164,
+      157
+    ]
+  },
+  {
+    "block_id": "stripped_cherry_log",
+    "texturing": "axis",
+    "part": null,
+    "avg_color": [
+      215,
+      145,
+      148
+    ]
+  },
+  {
+    "block_id": "stripped_crimson_stem",
+    "texturing": "axis",
+    "part": null,
+    "avg_color": [
+      137,
+      57,
+      90
+    ]
+  },
+  {
+    "block_id": "stripped_crimson_stem",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      121,
+      56,
+      82
+    ]
+  },
+  {
+    "block_id": "stripped_dark_oak_log",
+    "texturing": "axis",
+    "part": null,
+    "avg_color": [
+      72,
+      56,
+      36
+    ]
+  },
+  {
+    "block_id": "stripped_dark_oak_log",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      65,
+      44,
+      22
+    ]
+  },
+  {
+    "block_id": "stripped_jungle_log",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      165,
+      122,
+      81
+    ]
+  },
+  {
+    "block_id": "stripped_jungle_log",
+    "texturing": "axis",
+    "part": null,
+    "avg_color": [
+      171,
+      132,
+      84
+    ]
+  },
+  {
+    "block_id": "stripped_mangrove_log",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      109,
+      43,
+      43
+    ]
+  },
+  {
+    "block_id": "stripped_mangrove_log",
+    "texturing": "axis",
+    "part": null,
+    "avg_color": [
+      119,
+      54,
+      47
+    ]
+  },
+  {
+    "block_id": "stripped_oak_log",
+    "texturing": "axis",
+    "part": null,
+    "avg_color": [
+      177,
+      144,
+      86
+    ]
+  },
+  {
+    "block_id": "stripped_oak_log",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      160,
+      129,
+      77
+    ]
+  },
+  {
+    "block_id": "stripped_spruce_log",
+    "texturing": "axis",
+    "part": null,
+    "avg_color": [
+      115,
+      89,
+      52
+    ]
+  },
+  {
+    "block_id": "stripped_spruce_log",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      105,
+      80,
+      46
+    ]
+  },
+  {
+    "block_id": "stripped_warped_stem",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      52,
+      128,
+      124
+    ]
+  },
+  {
+    "block_id": "stripped_warped_stem",
+    "texturing": "axis",
+    "part": null,
+    "avg_color": [
+      57,
+      150,
+      147
+    ]
+  },
+  {
+    "block_id": "target",
+    "texturing": "upright",
+    "part": "top",
+    "avg_color": [
+      226,
+      170,
+      157
+    ]
+  },
+  {
+    "block_id": "target",
+    "texturing": "upright",
+    "part": "side",
+    "avg_color": [
+      229,
+      176,
+      168
+    ]
+  },
+  {
+    "block_id": "terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      152,
+      94,
+      67
+    ]
+  },
+  {
+    "block_id": "tnt",
+    "texturing": "upright",
+    "part": "side",
+    "avg_color": [
+      182,
+      88,
+      84
+    ]
+  },
+  {
+    "block_id": "tnt",
+    "texturing": "upright",
+    "part": "bottom",
+    "avg_color": [
+      166,
+      66,
+      53
+    ]
+  },
+  {
+    "block_id": "tnt",
+    "texturing": "upright",
+    "part": "top",
+    "avg_color": [
+      142,
+      62,
+      53
+    ]
+  },
+  {
+    "block_id": "tuff",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      108,
+      109,
+      102
+    ]
+  },
+  {
+    "block_id": "verdant_froglight",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      229,
+      244,
+      228
+    ]
+  },
+  {
+    "block_id": "verdant_froglight",
+    "texturing": "axis",
+    "part": "side",
+    "avg_color": [
+      211,
+      234,
+      208
+    ]
+  },
+  {
+    "block_id": "warped_stem",
+    "texturing": "axis",
+    "part": null,
+    "avg_color": [
+      58,
+      58,
+      77
+    ]
+  },
+  {
+    "block_id": "warped_stem",
+    "texturing": "axis",
+    "part": "top",
+    "avg_color": [
+      53,
+      109,
+      110
+    ]
+  },
+  {
+    "block_id": "warped_wart_block",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      22,
+      119,
+      121
+    ]
+  },
+  {
+    "block_id": "wet_sponge",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      171,
+      181,
+      70
+    ]
+  },
+  {
+    "block_id": "white_concrete",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      207,
+      213,
+      214
+    ]
+  },
+  {
+    "block_id": "white_concrete_powder",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      225,
+      227,
+      227
+    ]
+  },
+  {
+    "block_id": "white_glazed_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      188,
+      212,
+      202
+    ]
+  },
+  {
+    "block_id": "white_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      209,
+      178,
+      161
+    ]
+  },
+  {
+    "block_id": "white_wool",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      233,
+      236,
+      236
+    ]
+  },
+  {
+    "block_id": "yellow_concrete",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      240,
+      175,
+      21
+    ]
+  },
+  {
+    "block_id": "yellow_concrete_powder",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      232,
+      199,
+      54
+    ]
+  },
+  {
+    "block_id": "yellow_glazed_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      234,
+      192,
+      88
+    ]
+  },
+  {
+    "block_id": "yellow_terracotta",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      186,
+      133,
+      35
+    ]
+  },
+  {
+    "block_id": "yellow_wool",
+    "texturing": "uniform",
+    "part": null,
+    "avg_color": [
+      248,
+      197,
+      39
+    ]
+  }
+]

@@ -1,0 +1,301 @@
+[
+  {
+    "name": "player",
+    "texture": "TBD",
+    "parts": [
+      {
+        "name": "head",
+        "dimensions": [8, 8, 8],
+        "offsets": {
+          "top": [8, 0],
+          "bottom": [16, 0],
+          "right": [0, 8],
+          "left": [16, 8],
+          "front": [8, 8],
+          "back": [24, 8]
+        },
+        "position": []
+      },
+      {
+        "name": "hat",
+        "dimensions": [8, 8, 8],
+        "offsets": {
+          "top": [40, 0],
+          "bottom": [48, 0],
+          "right": [32, 8],
+          "left": [48, 8],
+          "front": [40, 8],
+          "back": [56, 8]
+        },
+        "position": [
+          {"translate": [0, 10, 0]}
+        ]
+      },
+      {
+        "name": "body",
+        "dimensions": [8, 12, 4],
+        "offsets": {
+          "top": [20, 16],
+          "bottom": [28, 16],
+          "right": [16, 20],
+          "left": [28, 20],
+          "front": [20, 20],
+          "back": [32, 20]
+        },
+        "position": [
+          {"translate": [0, -8, -2]}
+        ]
+      },
+      {
+        "name": "right-arm",
+        "dimensions": [4, 12, 4],
+        "offsets": {
+          "top": [44, 16],
+          "bottom": [48, 16],
+          "right": [40, 20],
+          "left": [48, 20],
+          "front": [44, 20],
+          "back": [52, 20]
+        },
+        "position": [
+          {"translate": [-4, -8, -2]}
+        ],
+        "alternates": [
+          {
+            "name": "forward",
+            "position": [
+              {"rotate": "-x"},
+              {"translate": [-4, -8, -5]}
+            ]
+          },
+          {
+            "name": "raised",
+            "position": [
+              {"rotate": "-x"},
+              {"rotate": "-x"},
+              {"translate": [-4, -11, -5]}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "left-arm",
+        "dimensions": [4, 12, 4],
+        "offsets": {
+          "top": [44, 16],
+          "bottom": [48, 16],
+          "right": [40, 20],
+          "left": [48, 20],
+          "front": [44, 20],
+          "back": [52, 20]
+        },
+        "position": [
+          {"mirror": "yz"},
+          {"translate": [13, -8, -2]}
+        ]
+      },
+      {
+        "name": "right-leg",
+        "dimensions": [4, 12, 4],
+        "offsets": {
+          "top": [4, 16],
+          "bottom": [8, 16],
+          "right": [0, 20],
+          "left": [8, 20],
+          "front": [4, 20],
+          "back": [12, 20]
+        },
+        "position": [
+          {"translate": [0, -20, -2]}
+        ]
+      },
+      {
+        "name": "left-leg",
+        "dimensions": [4, 12, 4],
+        "offsets": {
+          "top": [4, 16],
+          "bottom": [8, 16],
+          "right": [0, 20],
+          "left": [8, 20],
+          "front": [4, 20],
+          "back": [12, 20]
+        },
+        "position": [
+          {"mirror": "yz"},
+          {"translate": [9, -20, -2]}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "goat",
+    "texture": "entity/goat/goat.png",
+    "parts": [
+      {
+        "name": "head",
+        "dimensions": [5, 7, 10],
+        "offsets": {
+          "top": [44, 46],
+          "bottom": [49, 46],
+          "right": [34, 56],
+          "left": [49, 56],
+          "front": [44, 56],
+          "back": [59, 5]
+        },
+        "position": [
+          {"rotate": "+x"},
+          {"translate": [2, -10, 7]}
+        ]
+      },
+      {
+        "name": "torso",
+        "dimensions": [9, 11, 16],
+        "offsets": {
+          "top": [17, 1],
+          "bottom": [26, 1],
+          "right": [1, 17],
+          "left": [26, 17],
+          "front": [17, 17],
+          "back": [42, 17]
+        },
+        "position": []
+      },
+      {
+        "name": "coat",
+        "dimensions": [11, 14, 11],
+        "offsets": {
+          "top": [11, 28],
+          "bottom": [22, 28],
+          "right": [0, 39],
+          "left": [22, 39],
+          "front": [11, 39],
+          "back": [33, 39]
+        },
+        "position": [
+          {"translate": [-1, 1, 1]}
+        ]
+      },
+      {
+        "name": "front left leg",
+        "dimensions": [3, 10, 3],
+        "offsets": {
+          "top": [38, 2],
+          "bottom": [41, 2],
+          "right": [35, 5],
+          "left": [41, 5],
+          "front": [38, 5],
+          "back": [44, 5]
+        },
+        "position": [
+          {"translate": [5, -7, -1]}
+        ]
+      },
+      {
+        "name": "front right leg",
+        "dimensions": [3, 10, 3],
+        "offsets": {
+          "top": [52, 2],
+          "bottom": [55, 2],
+          "right": [49, 5],
+          "left": [55, 5],
+          "front": [52, 5],
+          "back": [59, 5]
+        },
+        "position": [
+          {"translate": [1, -7, -1]}
+        ]
+      },
+      {
+        "name": "rear left leg",
+        "dimensions": [3, 6, 3],
+        "offsets": {
+          "top": [39, 29],
+          "bottom": [42, 29],
+          "right": [36, 32],
+          "left": [42, 32],
+          "front": [39, 32],
+          "back": [45, 32]
+        },
+        "position": [
+          {"translate": [5, -11, -11]}
+        ]
+      },
+      {
+        "name": "rear right leg",
+        "dimensions": [3, 6, 3],
+        "offsets": {
+          "top": [52, 29],
+          "bottom": [55, 29],
+          "right": [49, 32],
+          "left": [55, 32],
+          "front": [52, 32],
+          "back": [59, 32]
+        },
+        "position": [
+          {"translate": [1, -11, -11]}
+        ]
+      },
+      {
+        "name": "left horn",
+        "dimensions": [2, 7, 2],
+        "offsets": {
+          "top": [14, 55],
+          "bottom": [16, 55],
+          "right": [12, 57],
+          "left": [16, 57],
+          "front": [14, 57],
+          "back": [18, 57]
+        },
+        "position": [
+          {"translate": [5, 3, 7]}
+        ]
+      },
+      {
+        "name": "right horn",
+        "dimensions": [2, 7, 2],
+        "offsets": {
+          "top": [14, 55],
+          "bottom": [16, 55],
+          "right": [12, 57],
+          "left": [16, 57],
+          "front": [14, 57],
+          "back": [18, 57]
+        },
+        "position": [
+          {"translate": [2, 3, 7]}
+        ]
+      },
+      {
+        "name": "left ear",
+        "dimensions": [3, 2, 1],
+        "offsets": {
+          "top": [3, 61],
+          "bottom": [6, 61],
+          "right": [2, 62],
+          "left": [6, 62],
+          "front": [3, 62],
+          "back": [7, 62]
+        },
+        "position": [
+          {"mirror": "yz"},
+          {"translate": [11, -1, 6]}
+        ]
+      },
+      {
+        "name": "right ear",
+        "dimensions": [3, 2, 1],
+        "offsets": {
+          "top": [3, 61],
+          "bottom": [6, 61],
+          "right": [2, 62],
+          "left": [6, 62],
+          "front": [3, 62],
+          "back": [7, 62]
+        },
+        "position": [
+          {"translate": [-1, -1, 6]}
+        ]
+      }
+    ]
+  }
+]

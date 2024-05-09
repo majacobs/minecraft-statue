@@ -283,4 +283,12 @@ pub enum DataVersion {
     Minecraft1_20_1 = 3465,
     /// Minecraft 1.20.2
     Minecraft1_20_2 = 3578,
+    /// Minecraft 1.20.3
+    Minecraft1_20_3 = 3698,
+    /// Minecraft 1.20.4
+    Minecraft1_20_4 = 3700,
+    /// Minecraft 1.20.5
+    Minecraft1_20_5 = 3837,
+    /// Minecraft 1.20.6
+    Minecraft1_20_6 = 3839,
 }

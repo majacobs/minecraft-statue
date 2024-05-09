@@ -1,4 +1,5 @@
 use crate::drawing::Brush;
+use serde::Deserialize;
 
 #[derive(Clone)]
 pub struct Transform {
@@ -33,6 +34,11 @@ impl Transform {
 
     pub fn mirror(mut self, plane: Plane) -> Self {
         self.steps.push(TransformStep::Mirror(plane));
+        self
+    }
+
+    pub fn step(mut self, step: TransformStep) -> Self {
+        self.steps.push(step);
         self
     }
 
@@ -72,10 +78,13 @@ impl Transform {
     }
 }
 
-#[derive(Copy, Clone)]
-enum TransformStep {
+#[derive(Debug, Copy, Clone, Deserialize)]
+pub enum TransformStep {
+    #[serde(rename = "rotate")]
     Rotate(Rotation),
+    #[serde(rename = "translate")]
     Translate { dx: i32, dy: i32, dz: i32 },
+    #[serde(rename = "mirror")]
     Mirror(Plane),
 }
 
@@ -152,20 +161,29 @@ impl TransformStep {
 }
 
 #[allow(unused)]
-#[derive(Copy, Clone)]
+#[derive(Debug, Copy, Clone, Deserialize)]
 pub enum Rotation {
+    #[serde(rename = "+x")]
     XPos,
+    #[serde(rename = "-x")]
     XNeg,
+    #[serde(rename = "+y")]
     YPos,
+    #[serde(rename = "-y")]
     YNeg,
+    #[serde(rename = "+z")]
     ZPos,
+    #[serde(rename = "-z")]
     ZNeg,
 }
 
 #[allow(unused)]
-#[derive(Copy, Clone)]
+#[derive(Debug, Copy, Clone, Deserialize)]
 pub enum Plane {
+    #[serde(rename = "xz")]
     XZ,
+    #[serde(rename = "xy")]
     XY,
+    #[serde(rename = "yz")]
     YZ,
 }
