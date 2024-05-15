@@ -297,5 +297,129 @@
         ]
       }
     ]
+  },
+  {
+    "name": "bee",
+    "texture": "entity/bee/bee.png",
+    "parts": [
+      {
+        "name": "body",
+        "dimensions": [7, 7, 10],
+        "offsets": {
+          "top": [10, 0],
+          "bottom": [17, 0],
+          "right": [17, 10],
+          "left": [0, 10],
+          "front": [10, 10],
+          "back": [27, 10]
+        },
+        "position": []
+      },
+      {
+        "name": "left wing",
+        "dimensions": [7, 6],
+        "offset": [8, 18],
+        "position": [
+          {"translate": [-4, 1, -7]}
+        ]
+      },
+      {
+        "name": "right wing",
+        "dimensions": [7, 6],
+        "offset": [15, 24],
+        "position": [
+          {"translate": [6, 1, -7]}
+        ]
+      },
+      {
+        "name": "left antenna",
+        "dimensions": [3, 2],
+        "offset": [2, 3],
+        "position": [
+          {"rotate": "-y"},
+          {"rotate": "+z"},
+          {"translate": [6, 0, 1]}
+        ]
+      },
+      {
+        "name": "right antenna",
+        "dimensions": [3, 2],
+        "offset": [6, 6],
+        "position": [
+          {"rotate": "+y"},
+          {"rotate": "-z"},
+          {"translate": [2, 0, 3]}
+        ]
+      },
+      {
+        "name": "left front leg",
+        "dimensions": [1, 2],
+        "offset": [30, 1],
+        "position": [
+          {"rotate": "-x"},
+          {"rotate": "+y"},
+          {"translate": [5, -8, -2]}
+        ]
+      },
+      {
+        "name": "left middle leg",
+        "dimensions": [1, 2],
+        "offset": [31, 3],
+        "position": [
+          {"rotate": "-x"},
+          {"rotate": "+y"},
+          {"translate": [6, -8, -4]}
+        ]
+      },
+      {
+        "name": "left rear leg",
+        "dimensions": [1, 2],
+        "offset": [31, 5],
+        "position": [
+          {"rotate": "-x"},
+          {"rotate": "+y"},
+          {"translate": [6, -8, -6]}
+        ]
+      },
+      {
+        "name": "right front leg",
+        "dimensions": [1, 2],
+        "offset": [28, 1],
+        "position": [
+          {"rotate": "-x"},
+          {"rotate": "+y"},
+          {"translate": [3, -8, -2]}
+        ]
+      },
+      {
+        "name": "right middle leg",
+        "dimensions": [1, 2],
+        "offset": [27, 3],
+        "position": [
+          {"rotate": "-x"},
+          {"rotate": "+y"},
+          {"translate": [2, -8, -4]}
+        ]
+      },
+      {
+        "name": "right rear leg",
+        "dimensions": [1, 2],
+        "offset": [27, 5],
+        "position": [
+          {"rotate": "-x"},
+          {"rotate": "+y"},
+          {"translate": [2, -8, -6]}
+        ]
+      },
+      {
+        "name": "stinger",
+        "dimensions": [2, 1],
+        "offset": [26, 9],
+        "position": [
+          {"rotate": "+y"},
+          {"translate": [4, -3, -10]}
+        ]
+      }
+    ]
   }
 ]
