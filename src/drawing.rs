@@ -4,8 +4,14 @@ use crate::transform::{Rotation, Transform};
 use image::{GenericImageView, RgbaImage};
 
 #[derive(Clone)]
+pub enum Primitive {
+    Cuboid(Cuboid),
+    Plane(Plane),
+}
+
+#[derive(Clone)]
 pub struct Cuboid {
-    pub dimensions: Dimensions,
+    pub dimensions: Dimensions3D,
     pub offsets: TextureOffsets,
     pub position: Transform,
 }
@@ -97,19 +103,56 @@ impl Cuboid {
     }
 }
 
+#[derive(Clone)]
+pub struct Plane {
+    pub dimensions: Dimensions2D,
+    pub offset: (u32, u32),
+    pub position: Transform,
+}
+
+impl Plane {
+    pub fn face(&self) -> (Face, Brush) {
+        (
+            Face {
+                x: self.offset.0,
+                y: self.offset.1,
+                width: self.dimensions.x,
+                height: self.dimensions.y,
+                transform: Transform::new(),
+            },
+            Brush::Full,
+        )
+    }
+}
+
 #[derive(Copy, Clone)]
-pub struct Dimensions {
+pub struct Dimensions3D {
     pub x: u32,
     pub y: u32,
     pub z: u32,
 }
 
-impl From<[u32; 3]> for Dimensions {
+impl From<[u32; 3]> for Dimensions3D {
     fn from(value: [u32; 3]) -> Self {
         Self {
             x: value[0],
             y: value[1],
             z: value[2],
+        }
+    }
+}
+
+#[derive(Copy, Clone)]
+pub struct Dimensions2D {
+    pub x: u32,
+    pub y: u32,
+}
+
+impl From<[u32; 2]> for Dimensions2D {
+    fn from(value: [u32; 2]) -> Self {
+        Self {
+            x: value[0],
+            y: value[1],
         }
     }
 }
@@ -148,7 +191,7 @@ impl Face {
         let brush = transform.brush(brush);
 
         let net_rotation = transform.rotate_only(0, 1, 0);
-        let normal = Direction::from_unit(net_rotation);
+        let normal = Direction::from_unit(net_rotation).expect("invalid rotation");
 
         let view = image.view(self.x, self.y, self.width, self.height);
         for (x, z, pixel) in view.pixels() {

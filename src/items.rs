@@ -1,9 +1,8 @@
+use crate::draw::Draw;
 use crate::drawing::{Brush, Face};
 use crate::nbt::Structure;
 use crate::transform::{Plane, Rotation, Transform};
-use image::io::Reader as ImageReader;
-
-const TEXTURE_DIR: &str = "minecraft/1.20.1/assets/minecraft/textures/";
+use image::RgbaImage;
 
 pub struct Item {
     pub texture: String,
@@ -11,11 +10,8 @@ pub struct Item {
     pub position: Transform,
 }
 
-impl Item {
-    pub fn draw(&self, structure: &mut Structure, scaling: u32) -> std::io::Result<()> {
-        let image = ImageReader::open(&self.texture)?.decode().unwrap();
-        let image = image.as_rgba8().unwrap();
-
+impl Draw for Item {
+    fn draw(&self, structure: &mut Structure, scaling: u32, image: &RgbaImage) {
         let pre_transform = Transform::with_scale(scaling);
         self.face.draw(
             structure,
@@ -24,8 +20,6 @@ impl Item {
             &self.position,
             Brush::Full,
         );
-
-        Ok(())
     }
 }
 
@@ -45,7 +39,7 @@ pub fn get_item(name: &str) -> Option<Item> {
 
 fn tool(name: &str) -> Item {
     Item {
-        texture: format!("{TEXTURE_DIR}item/{name}.png"),
+        texture: format!("item/{name}.png"),
         face: Face {
             x: 0,
             y: 0,
@@ -59,7 +53,7 @@ fn tool(name: &str) -> Item {
 
 fn trident() -> Item {
     Item {
-        texture: TEXTURE_DIR.to_string() + "entity/trident.png",
+        texture: String::from("entity/trident.png"),
         face: Face {
             x: 19,
             y: 1,

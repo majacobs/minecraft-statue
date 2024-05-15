@@ -167,7 +167,7 @@ impl Structure {
 
     pub fn normalize(&mut self) {
         if self.blocks.is_empty() {
-            panic!("Empty structure");
+            return;
         }
 
         let (mut min_x, mut max_x) = (i32::MAX, i32::MIN);

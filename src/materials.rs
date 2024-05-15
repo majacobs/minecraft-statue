@@ -112,15 +112,15 @@ pub enum Direction {
 }
 
 impl Direction {
-    pub fn from_unit(unit: (i32, i32, i32)) -> Self {
+    pub fn from_unit(unit: (i32, i32, i32)) -> Result<Self, ()> {
         match unit {
-            (x, 0, 0) if x > 0 => Self::PosX,
-            (0, y, 0) if y > 0 => Self::PosY,
-            (0, 0, z) if z > 0 => Self::PosZ,
-            (x, 0, 0) if x < 0 => Self::NegX,
-            (0, y, 0) if y < 0 => Self::NegY,
-            (0, 0, z) if z < 0 => Self::NegZ,
-            _ => panic!("Not a unit vector"),
+            (x, 0, 0) if x > 0 => Ok(Self::PosX),
+            (0, y, 0) if y > 0 => Ok(Self::PosY),
+            (0, 0, z) if z > 0 => Ok(Self::PosZ),
+            (x, 0, 0) if x < 0 => Ok(Self::NegX),
+            (0, y, 0) if y < 0 => Ok(Self::NegY),
+            (0, 0, z) if z < 0 => Ok(Self::NegZ),
+            _ => Err(()),
         }
     }
 }

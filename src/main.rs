@@ -1,8 +1,12 @@
+use crate::draw::Draw;
 use crate::items::get_item;
-use crate::model::{JsonModel, Model};
+use crate::model::JsonModel;
 use crate::nbt::{DataVersion, Structure};
+use image::io::Reader as ImageReader;
+use image::ImageError;
 use std::fs::File;
 
+mod draw;
 mod drawing;
 mod items;
 mod materials;
@@ -10,7 +14,10 @@ mod model;
 mod nbt;
 mod transform;
 
-fn main() -> std::io::Result<()> {
+const SKIN_DIR: &str = ".";
+const TEXTURE_DIR: &str = "minecraft/1.20.1/assets/minecraft/textures";
+
+fn main() -> Result<(), Error> {
     let mut structure = Structure::new(DataVersion::Minecraft1_20_1);
 
     let file = File::open("models.json")?;
@@ -21,7 +28,7 @@ fn main() -> std::io::Result<()> {
         return Ok(());
     };
 
-    match args.what {
+    let (drawable, texture): (Box<dyn Draw>, String) = match args.what {
         What::Player {
             player,
             alternatives,
@@ -30,11 +37,13 @@ fn main() -> std::io::Result<()> {
                 println!("Player model not found");
                 return Ok(());
             };
-            model.texture = format!("{player}.png");
+
             for (part, alt) in alternatives.into_iter() {
                 model.use_alternate(part, alt);
             }
-            model.draw(&mut structure, args.model_scale)?;
+
+            let texture = format!("{}/{}.png", SKIN_DIR, player);
+            (Box::new(model), texture)
         }
         What::Item { name } => {
             let Some(item) = get_item(&name) else {
@@ -42,16 +51,24 @@ fn main() -> std::io::Result<()> {
                 return Ok(());
             };
 
-            item.draw(&mut structure, args.model_scale)?;
+            let texture = format!("{}/{}", TEXTURE_DIR, item.texture);
+            (Box::new(item), texture)
         }
         What::Mob { name } => {
             let Some(model) = models.into_iter().find(|m| m.name == name) else {
                 println!("Unsupported mob \"{name}\"");
                 return Ok(());
             };
-            model.draw(&mut structure, args.model_scale)?;
+
+            let texture = format!("{}/{}", TEXTURE_DIR, model.texture);
+            (Box::new(model), texture)
         }
-    }
+    };
+
+    let image = ImageReader::open(texture)?.decode()?;
+    let image = image.as_rgba8().ok_or(Error::NotRgba8)?;
+
+    drawable.draw(&mut structure, args.model_scale, image);
 
     let mut f = File::create("output.nbt")?;
     structure.normalize();
@@ -119,4 +136,31 @@ enum What {
     Mob {
         name: String,
     },
+}
+
+#[allow(dead_code)]
+#[derive(Debug)]
+enum Error {
+    Image(ImageError),
+    Io(std::io::Error),
+    Serde(serde_json::Error),
+    NotRgba8,
+}
+
+impl From<ImageError> for Error {
+    fn from(value: ImageError) -> Self {
+        Self::Image(value)
+    }
+}
+
+impl From<std::io::Error> for Error {
+    fn from(value: std::io::Error) -> Self {
+        Self::Io(value)
+    }
+}
+
+impl From<serde_json::Error> for Error {
+    fn from(value: serde_json::Error) -> Self {
+        Self::Serde(value)
+    }
 }
